@@ -8,13 +8,60 @@ sites, and even documentation with poor explanations, I figured I might as well 
 that. Playing around with different NLP functionality. However the "Basics_In_Detail" file is strictly non NLP PyTorch code. 
 
 
-### <b><i>Side note to keep in mind: </i></b>
-Admittedly the comment formatting is a tiny bit off. Why? Well I was working on both portions of code at my regular job. So I was using Google Colab on my phone and in 
-order to properly <i>SEE</i> the comments, I had to not make them so long in a horizontal sense. 
+### <b><i>2 side note to keep in mind: </i></b>
+1) Admittedly the comment formatting is a tiny bit off. Why? Well I was working on both portions of code at my regular job. So I was using Google Colab on my phone and in 
+order to properly <i>SEE</i> the comments, I had to not make them so long in a horizontal sense.
+
+2) I've documented every error I've overcome in great detail and they're part of the comments to help others get over the same errors. Hopefully it does help
+people.
 
 ### So what's this project?
 
-1) PyTorch_Basics_In_Detail.ipynb
+1) PyTorch_NLP_In_Detail.ipynb
+
+A lot of <b>IN DEPTH</b> code about the basics/intermediate functionality of NLP within PyTorch. Heavily commented and outputs along the way so the individual
+seeing it can visually see and follow along.
+
+  - Torchtext datasets
+  - Next & Iter
+  - Enumeration
+  - Tokenization with & without PyTorch
+  - Counter
+  - Vocab
+  - Encoding/Decoding strings
+  - Ngrams
+  - Bag of words
+  - Padding
+  - Dataset
+  - Dataloader
+  - Neural Networks
+    1) Basics of input/outut of a layer and how it works (Ex: Linear, Embedding, etc)
+    2) Loss functions
+    3) Dimension operations
+    4) Models
+    5) Updating embedding weights of a model
+    6) Requires Grad
+    7) Predictions explained in detail
+    8) Detach
+  - Gensim
+  - Glove
+  - Datapipes
+    1) IterableWrapper
+    2) FileLister
+    3) Map a datapipe
+   
+  - Build Vocab From Iterator (with yield function)
+  - Transforms
+  - Batches
+  - Lambdas
+  - Packed Sequences
+  - Character Encoding
+  - Bert
+  - TensorDataset
+
+
+
+2) PyTorch_Basics_In_Detail.ipynb
 
 Explanations about the basics of the libraries functions with Tensors.
 
